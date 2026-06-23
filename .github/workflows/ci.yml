@@ -20,6 +20,7 @@ jobs:
   build-and-test:
     name: Build és teszt
     runs-on: ubuntu-latest
+    environment: "production"
     steps:
       - name: Repo letöltése
         uses: actions/checkout@v4
